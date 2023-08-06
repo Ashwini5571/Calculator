@@ -1,13 +1,22 @@
-body {
+/* *{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 5px;
+  box-sizing: border-box;
+} */
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Robot',sans-serif;
+  padding: 5px;
+}
+.Calculator{
+  background: rgb(141, 138, 138);
+  width:20rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  

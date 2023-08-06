@@ -1,0 +1,39 @@
+.result {
+    height: 70px;
+    background-color: #aca7a7;
+    width: 100%;
+    
+  }
+  
+  .result p {
+    font-size: 40px;
+    margin: 5px;
+  
+  }
+  
+  .calculator-body {
+    max-width: 300px;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  button {
+    width: 25%;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(90, 249, 241);
+    border-color:rgb(18, 175, 196);
+    padding: 20px;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  button:hover{
+    opacity: 0.6;
+  }
+  .operators{
+    background-color: rgb(238, 39, 72);
+  }
+  
